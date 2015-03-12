@@ -1,0 +1,70 @@
+/*
+Theme Name: Portfólio - Pedro Mendonça (Porfolio Press Child Theme)
+Template: portfolio-press
+Description: Child Theme criado a partir do original Portfolio Press, para apresentação do portfólio do autor.
+Author: Pedro Mendonça (Child Theme Configurator by Lilaea Media)
+Author URI: http://www.pedromendonca.pt/
+Theme URI: http://www.pedromendonca.pt/
+Version: 1.0
+Tags: white, black, gray, two-columns, left-sidebar, right-sidebar, flexible-width, custom-menu, full-width-template, microformats, post-formats, rtl-language-support, theme-options, translation-ready
+
+Credits:
+
+Modificações por Pedro Mendonça - 2014
+
+Portfolio was built on the solid foundation of Toolbox:
+http://wordpress.org/extend/themes/toolbox
+
+Reset default browser CSS.
+Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/
+
+Updated: 2014-04-19 20:53:32
+*/
+
+@charset "UTF-8";
+@import url('../portfolio-press/style.css');
+
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+
+header .entry-meta {
+	display:none;  /*display:block;*/
+}
+
+
+
+/*  Menu com ligações para redes sociais
+-------------------------------------------------------------- */
+
+
+#menu-ligacoes-redes-sociais li {
+	display: inline-block;
+	height: 32px;
+	overflow: hidden;
+	margin-right: 10px;
+	/*margin-top: 0px;
+	margin-bottom: -2px;*/
+	opacity: .6;
+}
+
+
+#menu-ligacoes-redes-sociais li:hover {
+	/*margin-top: -2px;
+	margin-bottom: 0px;*/
+	opacity: 1;
+}
+
+#menu-ligacoes-redes-sociais li a {
+	target-name: new;
+	target-new: tab;
+}
+
+#menu-ligacoes-redes-sociais .fontawesome-text { /* para esconder título dos menus sociais e mostrar somente ícone */
+	display: none;
+}
+
+#menu-menu-principal-com-icons .fontawesome-text { /* para esconder título do menu principal com icons e mostrar somente ícone */
+	display: none;
+}
